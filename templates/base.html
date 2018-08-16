@@ -66,11 +66,13 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
 {% bootstrap_javascript %}
 
 {% block javascript %}
 {% endblock %}
-
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="{% static 'js/dtable.js' %}"></script>
 <!-- This site was developed under IEEE by
     Biswas - https://biswaz.github.io/
     and
